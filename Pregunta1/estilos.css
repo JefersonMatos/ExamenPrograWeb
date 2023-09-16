@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);
+
+body{
+    background-color: #dddddd;
+}
+
+div{
+    max-width: 400px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-family: 'Lato', cursive;
+}
+
+img{
+    max-width: 300px;
+    width: 250;
+}
+
+h2, h3, h4{
+    text-align: start;
+    padding-left: 15px;
+}
+
+.techo{
+    padding-top: 50px;
+}
+
+.precio{
+    display: inline;
+    margin: 0px;
+}
+
+#rojo{
+    background-color: rgb(255, 77, 77);
+    text-align: center;
+    border-radius: 150px;
+    padding-right: 10px;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+li{
+    list-style: none;
+    margin-left: 20%;
+}
+
+li:before{
+    content: "\2713\0020";
+}
+
+button{
+    background-color: #ADD500;
+    border-radius: 150px;
+    border: 0;
+    width: 200px;
+    height: 25px;
+    margin: 15px;
+    margin-left: 90px;
+}
